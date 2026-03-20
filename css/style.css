@@ -75,16 +75,10 @@ h3 {
 
 /* #sheet を包むコンテナを横スクロール可能にする */
 .sheet-wrapper {
-    overflow-x: auto;
-    /* overflow-y を削除 → ブラウザのスクロールを使う */
-    -webkit-overflow-scrolling: touch;
+    /* overflow を一切持たせない → スクロールはブラウザだけ */
     width: 100%;
-    /* height を削除 → 表が自然に縦に伸びる */
-    white-space: nowrap;
+    /* white-space も外す：横方向もブラウザに任せる */
 }
-
-
-
 
 /* ▼▼▼ ここから追加：jExcel の内部コンテナが縮むのを防ぐ ▼▼▼ */
 
@@ -97,10 +91,7 @@ h3 {
 
 /* jexcel_content の overflow を上書きしてスクロールを殺さない */
 .jexcel_content {
-    overflow-x: auto !important;   /* 横スクロールは表の中で */
-    overflow-y: auto !important;/* 縦スクロールはブラウザに任せる */
+    overflow: visible !important;  /* 中ではスクロールさせない */
 }
-
-
 
 /* ▼▼▼ 追加ここまで ▼▼▼ */
