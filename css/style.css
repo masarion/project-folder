@@ -76,12 +76,13 @@ h3 {
 /* #sheet を包むコンテナを横スクロール可能にする */
 .sheet-wrapper {
     overflow-x: auto;
-    overflow-y: auto;                 /* ← 縦スクロールを許可 */
+    overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     width: 100%;
-    height: calc(100vh - 60px);       /* ← 画面に応じて高さを確保 */
+    height: 100dvh;   /* ← 実際の表示領域いっぱいを使う */
     white-space: nowrap;
 }
+
 
 
 /* ▼▼▼ ここから追加：jExcel の内部コンテナが縮むのを防ぐ ▼▼▼ */
