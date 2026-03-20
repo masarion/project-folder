@@ -98,7 +98,7 @@ h3 {
 /* jexcel_content の overflow を上書きしてスクロールを殺さない */
 .jexcel_content {
     overflow-x: auto !important;   /* 横スクロールは表の中で */
-    overflow-y: visible !important;/* 縦スクロールはブラウザに任せる */
+    overflow-y: auto !important;/* 縦スクロールはブラウザに任せる */
 }
 
 
