@@ -5,6 +5,14 @@ body, html {
     width: 100%;
 }
 
+.toolbar {
+    padding: 12px 16px;     /* ← 上下左右に余白をつける */
+    display: flex;
+    gap: 8px;               /* ← ボタン同士の間隔 */
+    align-items: center;
+}
+
+
 .main-container {
     display: flex;      /* 横に並べる設定 */
     width: 100%;
