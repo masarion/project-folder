@@ -16,14 +16,14 @@ document.addEventListener("DOMContentLoaded", function () {
     // -----------------------------------
     // 行を追加
     // -----------------------------------
-    document.getElementById("add-row").addEventListener("click", function () {
+    document.getElementById("addRowBtn").addEventListener("click", function () {
         table.insertRow();   // 最終行の下に 1 行追加
     });
 
     // -----------------------------------
     // 列を追加
     // -----------------------------------
-    document.getElementById("add-col").addEventListener("click", function () {
+    document.getElementById("addColBtn").addEventListener("click", function () {
         table.insertColumn();   // 最終列の右に 1 列追加
     });
 
