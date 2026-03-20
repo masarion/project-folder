@@ -13,15 +13,23 @@
 <body>
 
 
-  <div class="toolbar">
+   <div class="toolbar">
     <button id="addRowBtn">行を追加</button>
-<button id="addColBtn">列を追加</button>
-</div>
+    <button id="addColBtn">列を追加</button>
+  </div>
+
+  <!-- ▼▼▼ タイトル入力エリアを追加 ▼▼▼ -->
+  <div class="title-area">
+    <input type="text" id="sheet-title" placeholder="ここにタイトルを入力してください" />
+  </div>
+  <!-- ▲▲▲ タイトル入力エリアここまで ▲▲▲ -->
+
   <!-- ▼▼▼ 追加：横スクロールコンテナ ▼▼▼ -->
   <div class="sheet-wrapper">
     <div id="sheet"></div>
   </div>
   <!-- ▲▲▲ 追加ここまで ▲▲▲ -->
+
   
 <script src="https://masarion.github.io/project-folder/js/jsuites.js"></script>
 <script src="https://masarion.github.io/project-folder/js/jexcel.js"></script>
