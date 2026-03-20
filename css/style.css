@@ -104,3 +104,19 @@ h3 {
 }
 
 /* ▼▼▼ 追加ここまで ▼▼▼ */
+
+/* ▼▼▼ タイトル入力エリアの追加 ▼▼▼ */
+.title-area {
+    padding: 8px 16px;
+}
+
+#sheet-title {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+/* ▲▲▲ タイトル入力エリアここまで ▲▲▲ */
+
